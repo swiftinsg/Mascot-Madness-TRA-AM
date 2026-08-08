@@ -3,18 +3,18 @@ import SwiftUI
 var leftArm: some BodyPart {
     LeftArm {
         LeftUpperArmSegment {
+            
             ZStack {
-                Rectangle()
-                    .frame(width: 30, height: 200)
-                    .foregroundStyle(.orange)
+                Text("💪")
+                    .font(.system(size: 1000))
+                    .scaleEffect(x:-1,y: 1)
             }
         }
     } foreArm: {
         LeftLowerArmSegment {
-            ZStack {
-                Rectangle()
-                    .frame(width: 30, height: 200)
-                    .foregroundStyle(.red)
+            VStack{
+                ZStack {
+                }
             }
         }
     }
