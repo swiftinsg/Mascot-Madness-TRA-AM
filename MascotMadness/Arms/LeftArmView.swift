@@ -6,13 +6,16 @@ var leftArm: some BodyPart {
             ZStack {
                 Rectangle()
                     .frame(width: 30, height: 200)
-                    .foregroundStyle(.orange)
+                    .foregroundStyle(.red)
             }
         }
     } foreArm: {
         LeftLowerArmSegment {
             ZStack {
                 Rectangle()
+                    .frame(width: 30, height: 200)
+                    .foregroundStyle(.white)
+                Circle()
                     .frame(width: 30, height: 200)
                     .foregroundStyle(.red)
             }
