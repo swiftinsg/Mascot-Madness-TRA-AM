@@ -2,10 +2,16 @@ import SwiftUI
 
 var legs: some BodyPart {
     Legs {
-        ZStack {
-            Circle()
-                .frame(width: 200, height: 200)
-                .foregroundStyle(.yellow)
+        HStack {
+            Text("🦵")
+                .font(.system(size: 200))
+                .offset(x:65)
+                .rotationEffect(.degrees(10))
+            Text("🦵")
+                .scaleEffect(x: -1, y: 1)
+                .font(.system(size: 200))
+                .offset(x:-65)
+                .rotationEffect(.degrees(-10))
         }
     }
 }
