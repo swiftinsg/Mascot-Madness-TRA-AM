@@ -3,19 +3,12 @@ import SwiftUI
 var rightArm: some BodyPart {
     RightArm {
         RightUpperArmSegment {
-            ZStack {
-                Rectangle()
-                    .frame(width: 30, height: 200)
-                    .foregroundStyle(.orange)
-            }
+          Text("🦾")
+                .font(.system(size: 1000))
         }
     } foreArm: {
         RightLowerArmSegment {
-            ZStack {
-                Rectangle()
-                    .frame(width: 30, height: 200)
-                    .foregroundStyle(.red)
-            }
+           
         }
     }
 }
